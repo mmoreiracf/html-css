@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: poppins, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header, nav, main, section {
+            border: 2px solid #000;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px 1px #0000001a;
+            border-radius: 10px;
+        }
+        article {
+            
+            padding: 10px;
+            margin-top: 10px;
+            box-shadow: 1px 1px 3px 1px #0000001a;
+            border-radius: 5px;
+            background-color: #d1d1d12d;
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #000;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        aside {
+            font-family: 'monospace';
+            font-size: small;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        
+        }
+        footer {
+            text-align: center;
+            background-color: #000;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #f2f2f2;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: #000000;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="#">Caixas</a>
+        <a href="#">Grupos</a>
+        <a href="#">Formulários</a>
+        </nav>   
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Projetos HTML Projetos JavaScript Projetos C#</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dolores nobis provident rem quaerat, similique corporis ipsum impedit. Aspernatur mollitia eos saepe, distinctio ea quae unde fugit in expedita nihil?</p>
+                <aside>
+                    <p>Artigo escrito por Matheus Moreira</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+    2025 © Desenvolvido por Matheus Moreira
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

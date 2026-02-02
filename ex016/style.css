@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+    font-family: poppins, sans-serif;
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to right,#0F172A,#1E293B);
+}
+main{
+    color: #F8FAFC;
+    margin: 50px;
+}
+h1{
+    color: #38BDF8;
+    text-align: center;
+    text-shadow: #f8fafc0e 2px 2px 4px;
+}
+h2{
+    color: #38BDF8;
+}
+p{
+    text-align: justify;
+    line-height: 1.6;
+}

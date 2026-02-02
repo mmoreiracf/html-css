@@ -1,0 +1,1 @@
+  /* shorthand font : font-style => font-weight font-size font-family */
